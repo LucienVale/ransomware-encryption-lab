@@ -58,7 +58,9 @@ File Created on Victim Machine:
 Result:
 	
  • Metasploitable runs Python 2.4
+ 
  • My payload uses with open(...) and Python’s cryptography module — incompatible with old systems	
+
  • Payload failed to run, throwing a syntax error
 
 Screenshot of error:
