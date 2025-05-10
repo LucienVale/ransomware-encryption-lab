@@ -94,6 +94,9 @@ My next objective is to build a more advanced version of the payload that will:
 Author
 
 Luis aka Lucien Vale
+
 Red team mindset in the making.
+
 Working toward OSCP.
+
 Hands-on, never theoretical.
