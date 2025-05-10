@@ -52,12 +52,14 @@ I transferred the scripts using a simple HTTP server from Kali:
 And used wget inside Metasploitable to pull the files into /tmp.
 
 File Created on Victim Machine:
-	•	important.txt (to simulate sensitive data)
+	
+ • important.txt (to simulate sensitive data)
 
 Result:
-	•	Metasploitable runs Python 2.4
-	•	My payload uses with open(...) and Python’s cryptography module — incompatible with old systems
-	•	Payload failed to run, throwing a syntax error
+	
+ • Metasploitable runs Python 2.4
+ • My payload uses with open(...) and Python’s cryptography module — incompatible with old systems	
+ • Payload failed to run, throwing a syntax error
 
 Screenshot of error:
 <img width="715" alt="Screenshot 2025-05-09 at 10 59 10 PM" src="https://github.com/user-attachments/assets/16ea1a40-0450-463c-a290-04812450f29d" />
@@ -67,9 +69,9 @@ Screenshot of error:
 Reflection
 
 This wasn’t a waste of time — it was exactly what offensive security is about:
-	•	Things won’t always work
-	•	You adapt
-	•	You sharpen your tools
+• Things won’t always work
+• You adapt
+• You sharpen your tools
 
 I completed the exercise from the book and learned something real about target environments:
 
@@ -80,10 +82,10 @@ You can’t drop modern weapons into ancient machines and expect them to fire.
 Next Mission: Covert Exfiltration Payload
 
 My next objective is to build a more advanced version of the payload that will:
-	•	Encrypt a specific file on a remote system
-	•	Send it back to my Kali machine using an HTTP POST request (covert channel)
-	•	Optionally delete the original to simulate stealth
-	•	Document and upload this as a separate lab
+• Encrypt a specific file on a remote system
+• Send it back to my Kali machine using an HTTP POST request (covert channel)
+• Optionally delete the original to simulate stealth
+• Document and upload this as a separate lab
 
 ⸻
 
